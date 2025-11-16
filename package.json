@@ -1,0 +1,12 @@
+{
+    "name": "icons-server",
+    "version": "1.0.0",
+    "description": "A web server for serving icon assets",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
