@@ -1,38 +1,72 @@
-# Icons 🎨
+# 🎨 Icons Collection
 
-Uma coleção utilitária de ícones organizados e categorizados para uso em projetos web, aplicações e interfaces.
+<div align="center">
+
+![Repo Size](https://img.shields.io/github/repo-size/6hax/icons?color=8257E6&style=for-the-badge)
+![Files](https://img.shields.io/github/directory-file-count/6hax/icons?color=8257E6&style=for-the-badge)
+![License](https://img.shields.io/badge/license-Free-brightgreen?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/maintained-yes-8257E6?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/6hax/icons?style=for-the-badge)
+
+Uma coleção de ícones **PNG** e **GIF** projetada para interfaces, dashboards e projetos web.
+
+</div>
+
+---
+
+## 🔍 Pré-visualização
+
+<div align="center">
+
+<p>
+  <img src="./static/Action/Action - Check.png" width="48px">
+  <img src="./static/Apps/Apps - Chrome.png" width="48px">
+  <img src="./animated/search.gif" width="48px">
+  <img src="./animated/refreshing.gif" width="48px">
+</p>
+
+</div>
+
+> [!NOTE]  
+> A prévia mostra apenas alguns ícones — a coleção completa está em `/static` e `/animated`.
+
+---
 
 ## 📁 Estrutura do Projeto
 
-O projeto está organizado em duas categorias principais:
+```
+
+/static    → Ícones PNG organizados por categorias
+/animated  → Ícones GIF para interações e feedback visual
+
+````
 
 ### 🖼️ Ícones Estáticos (`/static`)
-Ícones PNG organizados por categorias funcionais
-
-
+PNG categorizados por função (Action, Alerts, UI, Apps, etc.)
 
 ### 🎬 Ícones Animados (`/animated`)
-Ícones GIF para interfaces interativas
+GIFs ideais para feedback, loaders e interações.
 
-
+---
 
 ## 🚀 Como Usar
 
 ### Download Direto
-1. Navegue até a categoria desejada
-2. Baixe o ícone no formato desejado (PNG para estáticos, GIF para animados)
-3. Use em seu projeto
+1. Acesse a categoria desejada  
+2. Baixe o ícone (PNG ou GIF)  
+3. Use no seu projeto  
 
-### Em Projetos Web
+### Em HTML
 ```html
-<!-- Ícone estático -->
-<img src="path/to/static/Action/Action - Check.png" alt="Check Action">
+<!-- Estático -->
+<img src="path/to/static/Action/Action - Check.png" alt="Check">
 
-<!-- Ícone animado -->
-<img src="path/to/animated/check.gif" alt="Check Animation">
-```
+<!-- Animado -->
+<img src="path/to/animated/check.gif" alt="Animated Check">
+````
 
 ### Em CSS
+
 ```css
 .check-icon {
     background-image: url('path/to/static/Action/Action - Check.png');
@@ -41,40 +75,70 @@ O projeto está organizado em duas categorias principais:
 }
 ```
 
-## 🤝 Contribuindo
+---
 
-**Quer ajudar a expandir esta coleção de ícones? É só fazer um Pull Request!**
+## 🧩 Dicas de Uso
 
-### Como Contribuir
+> [!TIP]
+> PNG funciona melhor para elementos fixos de UI.
+> GIF é ótimo para *loading* e micro animações.
 
-1. **Fork** este repositório
-2. **Clone** para sua máquina local
-3. **Adicione seus ícones** seguindo a estrutura existente
-4. **Commit** suas mudanças: `git commit -m 'Adiciona novos ícones para [categoria]'`
-5. **Abra um Pull Request** com uma descrição clara das mudanças
+> [!IMPORTANT]
+> Use os tamanhos originais para manter a nitidez.
 
-### Diretrizes para Contribuições
-
-- **Formato**: PNG para ícones estáticos, GIF para animados
-- **Tamanho**: Mantenha consistência com os ícones existentes
-- **Organização**: Coloque os ícones na categoria apropriada
-- **Qualidade**: Use ícones de alta resolução e boa qualidade visual
-
-
-## 📝 Licença
-
-Este projeto está disponível para uso livre em projetos pessoais e comerciais.
-
-## 🙏 Créditos
-
-- **Criadores**: [Hax](https://github.com/i1lo) & [Felipe](https://github.com/FelipeSilva72)
+> [!WARNING]
+> Não renomeie ícones ao contribuir — isso quebra o padrão da coleção.
 
 ---
 
-**⭐ Se este projeto foi útil para você, considere dar uma estrela!**
+## 🤝 Contribuindo
 
+<div align="center">
+Pull Requests são bem-vindos!  
+Contribua adicionando novos ícones, categorias ou melhorias.
+</div>
 
+### Como Contribuir
 
+1. Fork
+2. Clone
+3. Adicione seus ícones
+4. Commit:
 
+```
+git commit -m "add new icons for [category]"
+```
 
+5. Abra um Pull Request
 
+### Diretrizes
+
+> [!NOTE]
+> Para manter a coleção consistente:
+
+* PNG (estáticos)
+* GIF (animados)
+* Tamanhos uniformes
+* Categorias corretas
+* Alta nitidez
+
+---
+
+## 📝 Licença
+
+Este projeto é **livre para uso pessoal e comercial**.
+
+<div align="left">
+
+## 🙏 Créditos
+
+[hax](https://github.com/i1lo) & [Felipe](https://github.com/FelipeSilva72)
+
+---
+
+## ⭐ Apoie o Projeto
+
+Se esse pack te ajudou, deixa uma estrela ⭐
+Ajuda muito o projeto a crescer!
+
+</div>
