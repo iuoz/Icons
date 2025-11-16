@@ -2,3 +2,9 @@
 * linguist-detectable=true
 *.json linguist-detectable=false
 *.json linguist-vendored=true
+*.html linguist-detectable=false
+*.html linguist-vendored=true
+*.js linguist-detectable=false
+*.js linguist-vendored=true
+.gitattributes linguist-detectable=false
+.gitattributes linguist-vendored=true
