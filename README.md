@@ -388,7 +388,7 @@ Este projeto está disponível para uso livre em projetos pessoais e comerciais.
 
 ## 🙏 Créditos
 
-- **[hax](https://github.com/vqox)** - Criador
+- **[hax](https://github.com/vsqv)** - Criador
 - **[Felipe](https://github.com/FelipeSilva72)** - Colaborador
 
 ---
@@ -409,5 +409,6 @@ Se este projeto foi útil para você, considere:
 
 
 </div>
+
 
 
